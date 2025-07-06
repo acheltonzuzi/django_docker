@@ -1,7 +1,6 @@
 # Django Docker Boilerplate
 
-A base project to quickly start Django applications with Docker, PostgreSQL, and best practices.
-
+A simple example of how to set up Django in Docker.
 ## 🚀 Technologies Used
 
 - [Python](https://www.python.org/)
@@ -23,6 +22,26 @@ A base project to quickly start Django applications with Docker, PostgreSQL, and
     ```
 
 3. Access the project at [http://localhost:8000](http://localhost:8000)
+
+4. Create a new Django app:
+    ```bash
+    docker exec django_app python manage.py startapp jobs
+    ```
+
+5. Apply database migrations:
+    ```bash
+    docker exec django_app python manage.py migrate
+    ```
+
+6. Create a superuser for the admin site:
+    ```bash
+    docker exec -it django_app python manage.py createsuperuser
+    ```
+
+7. Collect static files (optional, for production):
+    ```bash
+    docker exec django_app python manage.py collectstatic
+    ```
 
 ## 📄 Description
 
