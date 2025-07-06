@@ -1,4 +1,4 @@
-# Django Docker Boilerplate
+# Django with Docker
 ![Project Screenshot](img.png)
 A simple example of how to set up Django in Docker.
 ## 🚀 Technologies Used
