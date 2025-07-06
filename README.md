@@ -14,6 +14,7 @@ A simple example of how to set up Django in Docker.
     ```bash
     git clone https://github.com/acheltonzuzi/django_docker.git
     cd django_docker
+    cp .env.example .env
     ```
 
 2. Start the containers:
