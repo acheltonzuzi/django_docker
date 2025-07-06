@@ -1,5 +1,5 @@
 # Django Docker Boilerplate
-
+![Project Screenshot](img.png)
 A simple example of how to set up Django in Docker.
 ## 🚀 Technologies Used
 
